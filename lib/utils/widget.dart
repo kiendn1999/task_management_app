@@ -24,10 +24,11 @@ appBar({title, context}) {
     backgroundColor: Colors.transparent,
     actions: [
       IconButton(
-          visualDensity: VisualDensity(horizontal: -4),
+          visualDensity: VisualDensity(horizontal: -4,vertical: -4),
           icon: Image.asset("assets/images/ic_notification.png"),
           onPressed: () {}),
       IconButton(
+        visualDensity: VisualDensity(vertical: -4),
         icon: Image.asset("assets/images/avatar.png"),
         onPressed: () {},
       ),

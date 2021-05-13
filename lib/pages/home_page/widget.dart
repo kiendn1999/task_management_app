@@ -14,8 +14,7 @@ logoHomeScreen() {
 
 description() {
   return Container(
-      width: 211,
-      margin: EdgeInsets.only(top: 45.2),
+      margin: EdgeInsets.only(top: 45.2,right: 42,left: 43),
       child: Text(
         "Try to assign more tasks to your employees or create a new project from scratch",
         style: TextStyle(fontSize: 12, color: Color(0xFF606C83)),

@@ -35,7 +35,7 @@ class _TaskScreenState extends State<TaskScreen> {
             ? AlignmentDirectional(1, 0.6)
             : AlignmentDirectional(1, 1.5),
         child: FloatingActionButton(
-          child: Icon(Icons.navigation_outlined),
+          child: Icon(Icons.keyboard_arrow_right),
           onPressed: () {
             var route =
                 MaterialPageRoute(builder: (context) => CreateTaskScreen());
